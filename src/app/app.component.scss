@@ -1,0 +1,70 @@
+.container {
+  margin: 25px 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .draw{
+    margin-bottom: 100px;
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .right {
+      gap: 15px;
+      input {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #ccc;
+      }
+
+      .addButton{
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        border: 1px solid #ccc;
+        background-color: teal;
+        cursor: pointer;
+      }
+
+      .removeButton{
+        padding: 10px;
+        font-size: 16px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        margin: 5px;
+        border: 1px solid #ccc;
+        background-color: orange;
+        cursor: pointer;
+      }
+      .sizeButton{
+        padding: 10px;
+        font-size: 16px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        margin: 5px;
+        border: 1px solid #ccc;
+        background-color: lightgray;
+        cursor: pointer;
+      }
+      .containsButton{
+        padding: 10px;
+        font-size: 16px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        margin: 5px;
+        border: 1px solid #ccc;
+        background-color: lightblue;
+        cursor: pointer;
+      }
+    }
+
+    .left {
+      display: flex;
+      flex-direction:column;
+      font-size: 20px;
+      color: #c2bfbf;
+    }
+  }
+
+}
+
+

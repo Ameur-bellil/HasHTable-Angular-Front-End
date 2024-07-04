@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="draw">
+    <canvas #canvas width="1000" height="400"></canvas>
+  </div>
+  <div class="info">
+    <div class="right">
+      <label for="inputKey"><strong>Input:</strong></label>
+      <input type="text"
+             id="inputKey"
+              [(ngModel)]="newWord"
+             placeholder="Enter Word"/>
+      <br />
+      <button class="addButton" (click)="addWord()">Add</button>
+      <button class="removeButton" (click)="removeWord()">Remove</button>
+      <button class="containsButton" (click)="searchWord()">Contains</button>
+    </div>
+    <div class="left">
+      <p><strong>Contains:</strong> {{ searchResult }}</p>
+    </div>
+  </div>
+</div>
